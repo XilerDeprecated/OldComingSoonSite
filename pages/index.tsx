@@ -3,7 +3,7 @@ import { NextSeo } from "next-seo";
 
 const SEO = {
   title: "Xiler Network | Work in progress",
-  description: "",
+  description: "Xiler is a platform which offers the best services for developers! This is currently under development, you can join our discord for the latest news! ",
 };
 
 const UnderConstructionPage = () => {

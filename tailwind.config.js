@@ -1,21 +1,19 @@
 const DarkTheme = require("@xiler/theme").Themes.dark;
 
 module.exports = {
-  purge: process.env.NODE_ENV
-    ? false
-    : {
-        mode: "all",
-        enabled: true,
-        layers: ["base", "components", "utilities"],
-        content: [
-          "./pages/**/*.{js,ts,jsx,tsx}",
-          "/components/**/*.{js,ts,jsx,tsx}",
-        ],
-        options: {
-          keyframes: true,
-          fontFace: true,
-        },
-      },
+  purge: {
+    mode: "all",
+    enabled: true,
+    layers: ["base", "components", "utilities"],
+    content: [
+      "./pages/**/*.{js,ts,jsx,tsx}",
+      "./components/**/*.{js,ts,jsx,tsx}",
+    ],
+    options: {
+      keyframes: true,
+      fontFace: true,
+    },
+  },
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {

@@ -10,7 +10,10 @@ export const WhatWillWeBePage: React.FC<Props> = ({ show, setShow }) => {
       }
     >
       <div
-        className={"m-auto my-3 transform rotate-180 cursor-pointer fill-current text-primary-500 transition " + (show ? "opacity-100" : "opacity-0")}
+        className={
+          "m-auto my-3 transform rotate-180 cursor-pointer fill-current text-primary-500 transition " +
+          (show ? "opacity-100" : "opacity-0")
+        }
         onClick={() => setShow(true)}
       >
         <svg

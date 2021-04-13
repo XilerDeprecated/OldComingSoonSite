@@ -1,6 +1,7 @@
 const DarkTheme = require("@xiler/theme").Themes.dark;
 
 module.exports = {
+  // purge: false,
   purge: {
     mode: "all",
     enabled: true,

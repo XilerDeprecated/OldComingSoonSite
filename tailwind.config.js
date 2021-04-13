@@ -18,6 +18,12 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
+    fontFamily: {
+      roboto: ["Roboto", "sans-serif"],
+    },
+    maxWidth: {
+      "80per": "80%",
+    },
     colors: DarkTheme,
   },
   variants: {

@@ -6,4 +6,5 @@ body {
   @apply bg-dark-500;
   @apply text-primary-500;
   @apply font-roboto;
+  @apply overflow-hidden;
 }

@@ -251,6 +251,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@xiler/theme@npm:latest":
+  version: 1.0.2
+  resolution: "@xiler/theme@npm:1.0.2"
+  checksum: a3da62fea485c1b6fe9b431181861753110e9ba29d8fc74aa926528cc9a8456cc0f4448926660c90df75266b4fdb66850b47ccdb89a226123a90d48410036b39
+  languageName: node
+  linkType: hard
+
 "abbrev@npm:1":
   version: 1.1.1
   resolution: "abbrev@npm:1.1.1"
@@ -5028,6 +5035,7 @@ typescript@latest:
   resolution: "work-in-progress-xiler@workspace:."
   dependencies:
     "@types/react": latest
+    "@xiler/theme": latest
     autoprefixer: latest
     cross-env: latest
     cssnano: latest

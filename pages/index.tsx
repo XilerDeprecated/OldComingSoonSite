@@ -31,6 +31,7 @@ const UnderConstructionPage = () => {
           cardType: "app",
         }}
       />
+      <p className="bg-blue-500">Hello World</p>
     </>
   );
 };
